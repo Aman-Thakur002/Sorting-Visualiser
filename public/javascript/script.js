@@ -166,6 +166,8 @@ $(document).ready(function() {
                 await insertionSort();
             else  if(algo_selected == "Merge Sort")
                 await mergeSort(0, size-1);
+            else if(algo_selected == "Quicksort")
+                await quicksort(0, size-1);
             else if(algo_selected == "Heapsort")
                 await heapsort();
             else {
